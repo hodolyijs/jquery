@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	
+	<title>slider</title>
+	
+	<style type="text/css">
+	* {border: 0; margin: 0; padding: 0; list-style: none;}
+	</style>
+	<link rel="stylesheet" href="jquery.shinchonSlider.css" />
+
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="jquery.shinchonSlider.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$(".sliderWrap").shinchonSlider();
+		});
+	</script>
+</head>
+<body>
+	<div class="sliderWrap">
+		<div class="sliderMask">
+			<ul class="slider">
+				<li><img src="01.jpg" /></li>
+				<li><img src="02.jpg" /></li>
+				<li><img src="03.jpg" /></li>
+				<li><img src="04.jpg" /></li>
+			</ul>
+		</div>
+		
+		<div class="controlBox">
+			<a href="#left" class="btn left">&lt;</a>	
+			<a href="#right" class="btn right">&gt;</a>
+
+			<ul class="thumb">
+				<li><a href="#1">1</a></li>
+				<li><a href="#2">2</a></li>
+				<li><a href="#3">3</a></li>
+				<li><a href="#4">4</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

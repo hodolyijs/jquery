@@ -1,0 +1,10 @@
+.sliderMask {width: 400px; height: 450px; position: relative;  overflow: hidden;}
+.slider {position: absolute; left: 0; top: 0; width: 1500px; height: 450px;}
+.slider li {float: left;}
+.slider img {width: 400px;}
+
+.sliderWrap {width: 400px; position: relative;}
+.btn {position: absolute;}
+.left {left: 10px; top: 200px;}
+.right {right: 10px; top: 200px;}
+.thumb li {float: left;}
